@@ -118,5 +118,22 @@ function ladoAleatorio(){
     }
 }
 
-/* A função Math.random conseguimos recuperar núm. de 0 à 0,99 */
+// ... (seu código existente)
 
+function forceLandscape() {
+    if (window.screen.orientation) {
+        // Verifica se a orientação atual não é paisagem
+        if (window.screen.orientation.type !== 'landscape-primary' && window.screen.orientation.type !== 'landscape-secondary') {
+            // Força a mudança para a orientação paisagem
+            screen.orientation.lock('landscape-primary').then(null).catch(function (error) {
+                console.error('Erro ao forçar a orientação paisagem:', error);
+            });
+        }
+    }
+}
+
+// Chama a função ao carregar a página
+window.addEventListener('load', forceLandscape);
+
+
+/* A função Math.random conseguimos recuperar núm. de 0 à 0,99 */
