@@ -6,16 +6,8 @@ body {
     background-image: url(imagens/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%
+    background-size: cover
    
-}
-
-/* Media query para orientação portrait (retrato) */
-@media screen and (orientation: portrait) {
-    body {
-        background-size: 300%;
-        
-    }
 }
 
 .mosquito1{
