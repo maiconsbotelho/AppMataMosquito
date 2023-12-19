@@ -2,17 +2,19 @@ html{
     cursor: url(imagens/mata_mosquito.png) 30 30, auto;
 }
 
-body{
+body {
     background-image: url(imagens/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%
+   
 }
 
 /* Media query para orientação portrait (retrato) */
 @media screen and (orientation: portrait) {
     body {
         background-size: 300%;
+        
     }
 }
 
