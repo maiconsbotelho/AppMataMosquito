@@ -32,7 +32,7 @@ Este Ã© um jogo simples desenvolvido em HTML, CSS e JavaScript onde o objetivo Ã
 
 ## Link do Jogo
 
-[https://matamosquito.maiconbotelho.com.br/](https://matamosquito.maiconbotelho.com.br/)
+[https://matamosquito.maiconbotelho.com.br/](https://maiconsbotelho.github.io/AppMataMosquito/)
 
 ## Autor
 
